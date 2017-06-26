@@ -1,18 +1,27 @@
 <?php
 
-function musique($string){
 //On appelle la chaîne de caractères dans la variable $string
 $string = 'rock pop folk blues progressif';
+
+function musique($string){
 
 //Dans la variable $styles on appelle la fonction explode
 //La fonction explode() permet de segmenter la string en supprimant le séparateur
 //Ici le séparateur définit est un espace ' '
 $styles = explode(' ', $string);
 
+echo 'Mes styles de musique sont:';
 
-//On affiche le tableau
-return($styles);
+    foreach ($styles as $style) {
+        echo "<pre>";
+        echo $style;
+        echo "</pre>";
+    }
+
 }
+
+musique($string);
+
 ?>
 
 <!-- ## Exercice 2

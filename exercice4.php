@@ -1,4 +1,9 @@
 <?php
+$sports = ['Football', 'Basket', 'Volley', 'Natation', 'Rugby']
+
+function midsport($sports){
+    $bestsports = 
+}
 
 ?>
 

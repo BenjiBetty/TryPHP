@@ -1,12 +1,12 @@
 
 <?php
 
-function corbeilledefruits($fruits, $etats){
+
 // Définition des fruits et des etats et création du tableau vide
 $fruits = ['banane' , 'pomme' , 'poire'];
 $etats = ['mûre' , 'pourrie'];
-$corbeilles = [];
 
+function corbeilleDeFruits($fruits, $etats){
 //On appelle les valeurs des tableaux dans les variables $fruit et $etat
 foreach($fruits as $fruit){
     foreach ($etats as $etat){
@@ -14,14 +14,18 @@ foreach($fruits as $fruit){
         //On remplit le tableau vide avec les valeurs
         $corbeilles[] = $fruit ." ". $etat;
 
-    };
-};
-
+    }
 }
-//On affiche le tableau vide contenant maintenant des valeurs
-echo "<pre>";
-return $corbeilles;
-echo "</pre>";
+echo "Dans ma corbeille de fruits j'ai:";
+
+    foreach ($corbeilles as $corbeille) {
+        echo "<pre>";
+        echo $corbeille;
+        echo "</pre>";
+    }
+}
+//On appelle la fonction corbeilleDeFruits
+corbeilleDeFruits($fruits, $etats);
 
 ?>
 

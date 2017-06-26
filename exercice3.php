@@ -2,12 +2,19 @@
 
 $marques_de_sport = ["puma", "kappa", "umbro", "adidas", "nike"];
 
-$marques_favorites = array_slice($marques_de_sport, 3);
+function mesmarques($marques_de_sport){
 
-echo "<pre>";
-print_r($marques_favorites);
-echo "</pre>";
 
+$marques_favorites = array_slice($marques_de_sport, -2);
+
+    foreach ($marques_favorites as $marque_favorite) {
+        echo "<pre>";
+        echo $marque_favorite;
+        echo "</pre>";
+    }
+}
+
+mesmarques($marques_de_sport);
 
 ?>
 
