@@ -1,3 +1,4 @@
+<!-- Niveau 1 -->
 <?php
 
 // Définition du tableau 

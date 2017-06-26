@@ -1,3 +1,4 @@
+<!-- Niveau 1 -->
 <?php
 // Création du tableau
 $marques_de_sport = ["puma", "kappa", "umbro", "adidas", "nike"];

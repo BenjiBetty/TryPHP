@@ -1,3 +1,4 @@
+<!-- Niveau 1 -->
 <?php
 
 $phrase = ["Je crois" , "que le php" , "ressemble à l'enfer"];

@@ -1,3 +1,4 @@
+<!-- Niveau 1 -->
 <?php
 
 //On appelle la chaîne de caractères dans la variable $string
