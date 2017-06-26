@@ -1,11 +1,13 @@
 <?php
-
+// Création du tableau
 $marques_de_sport = ["puma", "kappa", "umbro", "adidas", "nike"];
 
 function mesmarques($marques_de_sport){
 
-
+// Fonction native qui affiche les deux dernières valeurs du tableau
 $marques_favorites = array_slice($marques_de_sport, -2);
+
+    echo "mes marques de sport favorites sont:";
 
     foreach ($marques_favorites as $marque_favorite) {
         echo "<pre>";
@@ -13,7 +15,7 @@ $marques_favorites = array_slice($marques_de_sport, -2);
         echo "</pre>";
     }
 }
-
+// Appel de la fonction
 mesmarques($marques_de_sport);
 
 ?>

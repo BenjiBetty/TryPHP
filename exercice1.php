@@ -2,7 +2,7 @@
 <?php
 
 
-// Définition des fruits et des etats et création du tableau vide
+// Définition des tableaux fruits et des etats
 $fruits = ['banane' , 'pomme' , 'poire'];
 $etats = ['mûre' , 'pourrie'];
 
@@ -11,13 +11,13 @@ function corbeilleDeFruits($fruits, $etats){
 foreach($fruits as $fruit){
     foreach ($etats as $etat){
 
-        //On remplit le tableau vide avec les valeurs
+        //On remplit un tableau vide avec les valeurs
         $corbeilles[] = $fruit ." ". $etat;
 
     }
 }
 echo "Dans ma corbeille de fruits j'ai:";
-
+    
     foreach ($corbeilles as $corbeille) {
         echo "<pre>";
         echo $corbeille;
