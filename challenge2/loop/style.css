@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.erreur {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.carre {
+    font-weight: bold;
+}
+
+.nombrePair {
+    color: blue;
+}
+
+.nombrePairParfait {
+    color: blue;
+    font-weight: bold;
+}
+
+.nombreImpair {
+    color: orange;
+}
+
+.nombreImpairParfait {
+    color: orange;
+    font-weight: bold;
+}
